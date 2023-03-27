@@ -1,1 +1,102 @@
-@import './reset.css'
+@import './reset.css'; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0 auto; 
+    max-width: 1440px; 
+    padding: 0 32px; 
+}
+
+/* Header */ 
+.header{
+    height: 800px; 
+    padding-top: 31px; 
+    background-color: #000000; 
+    background-image: url('../img/header-bg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    border-radius: 0 0 54px 54px; 
+    color: #ffffff; 
+}
+
+.header a{
+    color: #fff; 
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 54px;
+}
+
+.nav-list__item{
+    text-transform: capitalize; 
+}
+
+.nav-list__link{
+    color: #fff; 
+    opacity: 0.7; 
+}
+
+.nav-list__link--active{
+   opacity: 1; 
+    
+}
+
+.user{
+    display: flex; 
+    column-gap: 8px; 
+    align-items: center; 
+
+}
+.user__content{
+    font-weight: 400;
+    font-size: 14px; 
+    color: #FFFFFF;
+    line-height: 21px;
+}
+
+.user__greeting{
+    opacity: 0.5;
+}
+
+.user__name{
+    font-weight: 600;
+}
+
+.user__avatar{
+  
+    
+    overflow: hidden; 
+    position: relative; 
+}
+
+.user__avatar img{
+    border-radius: 50%;
+    height: 48px; 
+    width: 48px; 
+    object-fit: cover;  
+}
+
+.user__avatar::after{
+    content: "";
+    display: block; 
+    width: 12px; 
+    height: 12px; 
+    border-radius: 50%; 
+    background-color: #FF0000; 
+    position:absolute; 
+    top: 0; 
+    right: 0; 
+
+}
