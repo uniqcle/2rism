@@ -72,7 +72,10 @@ html, body{
     font-size: 14px; 
     color: #FFFFFF;
     line-height: 1.5;
+<<<<<<< HEAD
     text-align: right; 
+=======
+>>>>>>> 943ce91f40b424df5a87b91efefa96a0580c60b7
 }
 
 .user__greeting{
