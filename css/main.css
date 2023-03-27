@@ -72,6 +72,7 @@ html, body{
     font-size: 14px; 
     color: #FFFFFF;
     line-height: 1.5;
+    text-align: right; 
 }
 
 .user__greeting{
