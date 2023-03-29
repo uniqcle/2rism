@@ -40,6 +40,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%; 
 }
 
 .nav-list{
@@ -168,7 +169,7 @@ html, body{
 
 .form__input{
     position: relative; 
-    background-color: rgba(172, 255, 47, 0.438); 
+    /* background-color: rgba(172, 255, 47, 0.438);  */
     display: inline-block;
     flex-grow: 1;  
     padding: 16px 20px 0 56px; 
