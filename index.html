@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turism</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
 </head>
 <body>
     <header class="header">
@@ -53,8 +54,86 @@
 
             </div>
 
-            <form action="" class="header-form">FORM</form>
+            <form action="" class="header__form form">
+
+                <div class="form__input form__input--location">
+                    <label for="location" class="label">
+                        Location
+                    </label>
+                    <br>
+                    <select class="select" name="" id="location">
+                        <option value="all">Explore nearby destinations</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                        <option value="4">option 4</option>
+                        <option value="5">option 5</option>
+                    </select>
+                </div>
+
+                
+                <div class="form__input form__input--activity">
+                    <label for="activity" class="label">
+                        Activity
+                    </label>
+                    <br>
+                    <select class="select" name="" id="activity">
+                        <option value="all">All activities</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                        <option value="4">option 4</option>
+                        <option value="5">option 5</option>
+                    </select>
+                </div>
+
+
+
+                <div class="form__input form__input--when">
+                    <label for="when" class="label">
+                        When
+                    </label>
+                    <br>
+                    <select class="select" name="" id="when">
+                        <option value="all">Choose a Date</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                        <option value="4">option 4</option>
+                        <option value="5">option 5</option>
+                    </select>
+                </div>
+
+
+
+
+                <div class="form__input form__input--guests">
+                    <label for="guests" class="label">
+                        Guests
+                    </label>
+                    <br>
+                    <select class="select" name="" id="guests">
+                        <option value="all">1 guest</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                        <option value="4">option 4</option>
+                        <option value="5">option 5</option>
+                    </select>
+                </div>
+ 
+ 
+
+                <button class="button-search">
+                   <img src="./img/icons/search-icon.svg" alt=""> 
+                </button>
+
+            </form>
+
         </div>
     </header>
+
+    <script src="./libs/custom-select/custom-select.min.js"></script>
+  <script src="./js/main.js"></script>  
 </body>
 </html>
