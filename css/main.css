@@ -139,20 +139,39 @@ html, body{
     background-color: #fff;
     color: #000; 
     border-radius: 12px; 
+    align-items: center; 
 }
 
 .form__input-wrapper {
     display: flex; 
     flex-direction: column; 
     padding: 15px 20px 16px 56px; 
-    background-color: #00ff4c; 
+    background-repeat: no-repeat; 
+    background-position: 16px 24px; 
 }
 
 .form__input--location {
     width: 300px; 
     background-image: url('../img/icons/location-icon.svg'); 
-    background-repeat: no-repeat; 
-    background-position: 16px 24px; 
+
+}
+
+.form__input--activity{
+    width: 255px; 
+    background-image: url('../img/icons/activity-icon.svg'); 
+ 
+}
+
+.form__input--when{
+    width: 255px; 
+    background-image: url('../img/icons/calendar-icon.svg'); 
+ 
+}
+
+.form__input--guests{
+    width: 255px; 
+    background-image: url('../img/icons/guest-icon.svg'); 
+ 
 }
 
 .form-label {
@@ -174,3 +193,5 @@ html, body{
 .form__input::placeholder{
     color: #161414;
 }
+
+ 
