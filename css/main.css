@@ -194,4 +194,37 @@ html, body{
     color: #161414;
 }
 
+
+/* Main */
+
+.main {
+    display: grid; 
+    gap: 120px; 
+    padding: 120px 0; 
+}
+.section {
+}
+.container {
+}
+.section__header {
+    margin-bottom: 64px; 
+}
+.section__cards {
+    display: grid; 
+    gap: 32px; 
+}
+
+.section__cards--popular{
+    grid-template-columns: repeat(6, 1fr); 
+}
+
+.section-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    /* identical to box height */
+    color: #161414;
+}
+
  
