@@ -218,6 +218,10 @@ html, body{
     grid-template-columns: repeat(6, 1fr); 
 }
 
+.section__cards--activities{
+    grid-template-columns: repeat(4, 1fr); 
+}
+
 .section__cards--hotels{
     grid-template-columns: repeat(4, 1fr); 
 }
