@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
     <link rel="stylesheet" href="./libs/autocomplete/css/autoComplete.01.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container container--header">
@@ -29,8 +31,8 @@
 
                 <div class="user">
                     <div class="user__content">
-                        <span class="user__greeting">Holla,</span><br> 
-                        <span class="user__name">Ales Nesetril</span>    
+                        <span class="user__greeting">Holla,</span><br>
+                        <span class="user__name">Ales Nesetril</span>
                     </div>
                     <div class="user__avatar">
                         <img src="./img/user.jpg" alt="user">
@@ -46,10 +48,10 @@
                     Discover the most engaging places
                 </h1>
 
-               <button class="button button--huge">
-                <img src="./img/icons/global-icon.svg" alt="global icon">
-                Discover on 3D Globe
-               </button>
+                <button class="button button--huge">
+                    <img src="./img/icons/global-icon.svg" alt="global icon">
+                    Discover on 3D Globe
+                </button>
 
             </div>
 
@@ -86,49 +88,208 @@
                     <label for="guests" class="form-label">
                         Guests
                     </label>
-                   <select class="form__select" name="form__input" id="">
-                    <option value="1">1 guest</option>
-                    <option value="2">2 guests</option>
-                    <option value="3">3 guests</option>
-                   </select>
+                    <select class="form__select" name="form__input" id="">
+                        <option value="1">1 guest</option>
+                        <option value="2">2 guests</option>
+                        <option value="3">3 guests</option>
+                    </select>
                 </div>
 
 
                 <button class="button button--search">
                     <img src="./img/icons/search-icon.svg" alt="Search">
                 </button>
-                     
+
             </form>
 
         </div>
     </header>
 
     <main class="main">
+
+        <!-- Popular -->
         <section class="section">
             <div class="container">
                 <div class="section__header">
-                    
+
                     <h2 class="section-title">Popular Destinations</h2>
                 </div>
                 <div class="section__cards section__cards--popular">
-                   <div>1</div>
-                   <div>2</div>
-                   <div>3</div>
-                   <div>4</div>
-                   <div>5</div>
-                   <div>6</div>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/popular/01.png" alt="image">
+                        <h3 class="card__title">Big Sur</h3>
+                        <a class="card__location" href="#california">California, USA</a>
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/popular/02.png" alt="image">
+                        <h3 class="card__title">Prescott</h3>
+                        <a class="card__location" href="#california">Arizona, USA</a>
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/popular/03.png" alt="image">
+                        <h3 class="card__title">Fort Mayers</h3>
+                        <a class="card__location" href="#california">Florida, USA</a>
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/popular/04.png" alt="image">
+                        <h3 class="card__title">Tucson</h3>
+                        <a class="card__location" href="#california">Arizona, USA</a>
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/popular/05.png" alt="image">
+                        <h3 class="card__title">St. Joseph</h3>
+                        <a class="card__location" href="#california">Michigan, USA</a>
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/popular/06.png" alt="image">
+                        <h3 class="card__title">Madrid</h3>
+                        <a class="card__location" href="#california">Spain</a>
+                    </article>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Hotels -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+
+                    <h2 class="section-title">Hotels and Restaurants</h2>
+
+                    <a href="#" class="button-more">
+                        View all
+                        <img src="./img/icons/arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section__cards section__cards--hotels">
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/hotels/01.png" alt="image">
+                        <h3 class="card__title">Monastero Santa Rosa Hotel & Spa</h3>
+
+                        <footer class="card__footer">
+
+                            <div class="card__location card__location--icon" href="#california">
+                                Salerno, Italy</div>
+
+                            <div class="card__rating">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_empty.svg" alt="star">
+                            </div>
+
+                        </footer>
+
+
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/hotels/02.png" alt="image">
+                        <h3 class="card__title">Monastero Santa Rosa Hotel & Spa</h3>
+
+                        <footer class="card__footer">
+
+                            <div class="card__location card__location--icon" href="#california">
+                                Salerno, Italy</div>
+
+                            <div class="card__rating">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_empty.svg" alt="star">
+                            </div>
+
+                        </footer>
+
+
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/hotels/03.png" alt="image">
+                        <h3 class="card__title">Monastero Santa Rosa Hotel & Spa</h3>
+
+                        <footer class="card__footer">
+
+                            <div class="card__location card__location--icon" href="#california">
+                                Salerno, Italy</div>
+
+                            <div class="card__rating">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_empty.svg" alt="star">
+                            </div>
+
+                        </footer>
+
+
+                    </article>
+
+                    <article class="card">
+                        <a class="card__link" href="#!"></a>
+                        <img class="card__image" src="./img/hotels/04.png" alt="image">
+                        <h3 class="card__title">Monastero Santa Rosa Hotel & Spa</h3>
+
+                        <footer class="card__footer">
+
+                            <div class="card__location card__location--icon" href="#california">
+                                Salerno, Italy</div>
+
+                            <div class="card__rating">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_full.svg" alt="star">
+                                <img src="./img/icons/star_empty.svg" alt="star">
+                            </div>
+
+                        </footer>
+
+
+                    </article>
+
+
+
+
+
                 </div>
             </div>
         </section>
 
 
-
     </main>
 
-  <script src="./libs/autocomplete/autoComplete.min.js"></script>
-  <script src="./libs/custom-select/custom-select.min.js"></script>
-  <script src="./libs/easepick/index.min.js"></script>
-  <script src="./js/main.js"></script>
-  <script src="./js/input-dest.js"></script>
+    <script src="./libs/autocomplete/autoComplete.min.js"></script>
+    <script src="./libs/custom-select/custom-select.min.js"></script>
+    <script src="./libs/easepick/index.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/input-dest.js"></script>
 </body>
+
 </html>
