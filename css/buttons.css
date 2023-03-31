@@ -23,6 +23,14 @@
     height: 60px;
 }
 
+.button--subscribe{
+    padding: 28px;  
+    width: 72px;
+    height: 72px;
+}
+
+
+
 .button-more{
     display: flex; 
     align-items: center; 
@@ -40,4 +48,5 @@
 .button-more:hover{
     opacity: 0.8; 
 }
+
 

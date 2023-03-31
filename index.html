@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turism</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/media.css">
     <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
     <link rel="stylesheet" href="./libs/autocomplete/css/autoComplete.01.css">
 </head>
@@ -29,16 +30,23 @@
                     <li class="nav-list__item"><a href="" class="nav-list__link">contact</a></li>
                 </ul>
 
-                <div class="user">
-                    <div class="user__content">
-                        <span class="user__greeting">Holla,</span><br>
-                        <span class="user__name">Ales Nesetril</span>
-                    </div>
-                    <div class="user__avatar">
-                        <img src="./img/user.jpg" alt="user">
-                    </div>
+                <div class="nav__user">
+                    <div class="user">
+                        <div class="user__content">
+                            <span class="user__greeting">Holla,</span><br>
+                            <span class="user__name">Ales Nesetril</span>
+                        </div>
+                        <div class="user__avatar">
+                            <img src="./img/user.jpg" alt="user">
+                        </div>
 
+                    </div>
                 </div>
+
+
+                <button class="mobile-nav-btn">
+                    <div class="nav-icon"></div>
+                </button>
             </nav>
 
 
@@ -55,7 +63,7 @@
 
             </div>
 
-            <form action="" class="form">
+            <form action="" class="form none">
 
                 <div class="form__input-wrapper form__input--location">
                     <label for="location" class="form-label">
@@ -105,7 +113,20 @@
         </div>
     </header>
 
-    <main class="main">
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">hotels</a></li>
+            <li><a href="#">restaurants</a></li>
+            <li><a href="#">tours</a></li>
+            <li><a href="#">destinations</a></li>
+            <li><a href="#">activities</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+
+    <main class="main none">
 
         <!-- Popular -->
         <section class="section">
@@ -451,6 +472,7 @@
 
 
                 <div class="footer__nav-wrapper">
+
                     <div class="footer-nav">
                         <h3 class="footer-nav__title">About</h3>
                         <ul class="footer-nav__list">
@@ -461,10 +483,54 @@
                         </ul>
 
                     </div>
+
+                    <div class="footer-nav">
+                        <h3 class="footer-nav__title">Company</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Why 2rism</a></li>
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Partner With Us</a></li>
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">FAQ</a></li>
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Blog</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="footer-nav">
+                        <h3 class="footer-nav__title">Support</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Account</a></li>
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Support Center</a></li>
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Feedback</a></li>
+                            <li class="footer-nav-item"><a href="" class="foote-nav__link">Contact Us</a></li>
+                        </ul>
+
+                    </div>
+
                 </div>
 
 
-                <div class="footer__subscribe">subscribe</div>
+                <div class="footer__subscribe">
+
+                    <div class="footer__subscribe-tile">Subscribe on our destination review newsletters</div>
+
+                    <form class="subscribe">
+
+                        <div class="subscribe__input-wrapper">
+                            <input id="subscribe-email" type="text" class="subscribe__input" required>
+                            <label for="subscribe-email" class="subscribe__label">Your Email</label>
+                        </div>
+
+                        <div class="subscribe__btn-wrapper">
+                            <button class="button button--subscribe">
+                                <img src="./img/icons/arrow_footer.svg" alt="">
+                            </button>
+                        </div>
+                    </form>
+
+
+
+                </div>
             </div>
         </div>
     </footer>
