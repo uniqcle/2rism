@@ -401,9 +401,34 @@ html, body{
     gap: 64px; 
     grid-template-columns: repeat(3, auto);
 }
-.footer_copyrights {
-}
+
 .footer__nav-wrapper {
 }
 .footer__subscribe {
 }
+
+
+/* footer copyrights */ 
+.footer_copyrights {
+    display: flex; 
+    flex-direction: column; 
+    gap: 16px; 
+    max-width: 354px; 
+}
+.footer__logo {
+        width: 90px; 
+        height: 36px; 
+}
+.footer__copyright-text {
+    font-size: 13px; 
+    color: #5B5B5B; 
+    margin-bottom: 16px; 
+}
+.footer-socials {
+    display: flex; 
+    gap: 32px; 
+    align-items: center; 
+}
+
+
+/* footer nav */ 
