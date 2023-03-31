@@ -4,6 +4,7 @@
 
 html, body{
     font-family: 'Poppins', sans-serif;
+ 
 }
 
 .container{
@@ -354,3 +355,36 @@ html, body{
     background-repeat: no-repeat; 
     background-position: 0px 2px; 
 }
+
+/* About us */ 
+
+.about-us {
+    max-width: 1144px; 
+    display: grid; 
+    gap: 32px; 
+    grid-template-columns: repeat(2, 1fr); 
+    margin: 0 auto; 
+}
+.about-us__desc {
+    display: grid;
+    gap: 32px; 
+    align-content: center; 
+}
+.about-us__title {
+    font-weight: 600; 
+    font-size: 32px;
+}
+.about-us__text {
+    font-size: 16px;
+    color: #5B5B5B; 
+    line-height: 2; 
+}
+
+.about-us__btn{
+   justify-self: flex-start; 
+}
+
+.about-us__img {
+    border-radius: 24px; 
+}
+
