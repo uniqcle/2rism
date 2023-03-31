@@ -388,3 +388,22 @@ html, body{
     border-radius: 24px; 
 }
 
+
+/* footer */ 
+
+.footer {
+    padding: 20px 0; 
+    background: #F9F9F9;
+}
+ 
+.footer__row {
+    display: grid; 
+    gap: 64px; 
+    grid-template-columns: repeat(3, auto);
+}
+.footer_copyrights {
+}
+.footer__nav-wrapper {
+}
+.footer__subscribe {
+}
