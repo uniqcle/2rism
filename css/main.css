@@ -222,6 +222,10 @@ html, body{
     grid-template-columns: repeat(4, 1fr); 
 }
 
+.section__cards--tips{
+    grid-template-columns: repeat(2, 1fr); 
+}
+
 .section__cards--hotels{
     grid-template-columns: repeat(4, 1fr); 
 }
@@ -284,4 +288,69 @@ html, body{
     display: flex; 
     justify-content: space-between;
 }
+
+
+
+
  
+.card--tips {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 32px; 
+}
+ 
+ 
+.card__desc {
+    display: flex; 
+    flex-direction: column; 
+    gap: 16px; 
+}
+
+.card__title--tips {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5B5B5B;
+}
+
+.card__footer--tips {
+    margin-top: auto; 
+}
+
+.card__footer-link {
+    position: relative; 
+    z-index: 1;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #878787;
+}
+
+.card__footer-link:hover{
+    color: #7B61FF; 
+}
+
+.card__footer-link--date {
+    padding-left: 20px; 
+    background-image: url('../img/icons/business_calendar.svg'); 
+    background-repeat: no-repeat; 
+    background-position: 0px 2px; 
+}
+.card__footer-link--author {
+    padding-left: 20px; 
+    background-image: url('../img/icons/user_line.svg'); 
+    background-repeat: no-repeat; 
+    background-position: 0px 2px; 
+}
+.card__footer-link--comments {
+    padding-left: 20px; 
+    background-image: url('../img/icons/communication.svg'); 
+    background-repeat: no-repeat; 
+    background-position: 0px 2px; 
+}
