@@ -254,7 +254,7 @@ const countryList = [
 const autoCompleteJS = new autoComplete(
     {
         selector: '#location',
-        placeHolder: "Explore nearby destinations",
+        placeHolder: "Explore destinations",
         data: {
             src: countryList,
             cache: true,
