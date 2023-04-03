@@ -198,4 +198,8 @@
     .about-us__img{
         display: none; 
     }
+
+    .subscribe__btn-wrapper{
+        margin-left: auto; 
+    }
 }
